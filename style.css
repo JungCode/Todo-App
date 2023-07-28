@@ -1,0 +1,70 @@
+html body {
+    font-family: 'Calistoga', cursive;
+    background-color: #C3EDC0;
+}
+h1{
+    color: #E9FFC2;
+}
+.todo-input{
+    border-color: transparent;
+    border-radius: 20px;
+    color: #768c74 !important; 
+}
+
+.form-floating{
+    max-width: 300px;
+}
+.label-on-input{
+    color: #FDFFAE  ;
+}
+.ul-todo{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+.li-todo{
+    background-color: #FDFFAE;
+    width: 300px;
+    height: 55px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: #AAC8A7;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.close-button{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.2s;
+    height: 100%;
+    width: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.task-is-done{
+    text-decoration: line-through;
+    background-color: #d7d894;
+    color: #768c74;
+}
+.li-todo:hover{
+    background-color: #d7d894;
+    color: #768c74;
+}
+.li-todo:hover .close-button{
+    display: flex;
+}
+.close-button:hover{
+    background-color: #cfd28a;
+}
+.container{
+    background-color: #AAC8A7;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
