@@ -1,6 +1,8 @@
 html body {
     font-family: 'Calistoga', cursive;
-    background-color: #C3EDC0;
+    background: linear-gradient(135deg,#AAC8A7,#E9FFC2);
+    min-height: 100vh;
+    transition: 0.2s;
 }
 h1{
     color: #E9FFC2;
@@ -21,6 +23,7 @@ h1{
     text-decoration: none;
     list-style: none;
     padding: 0px;
+    transition: 0.2s !important;
 }
 .li-todo{
     background-color: #FDFFAE;
@@ -29,9 +32,10 @@ h1{
     border-radius: 20px;
     padding: 15px;
     margin-bottom: 10px;
-    color: #AAC8A7;
+    color: grey;
     transition: 0.2s;
     cursor: pointer;
+    user-select: none;
 }
 .close-button{
     display: none;
@@ -66,5 +70,6 @@ h1{
     padding: 20px;
     max-width: 400px;
     border-radius: 20px;
-    transition: 0.2s;
+    transition: 0.2s !important;
 }
+
